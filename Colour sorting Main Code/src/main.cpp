@@ -132,7 +132,7 @@ void soundTone(Tones Play)
     break;
   }
 }
-
+//@MyCozyCorner was here :)
 int getPulse(int timeout)
 {
   if (pulseInLong(COUT, LOW, timeout * 1000)) // if we get a pulse we ignore the first pulse for stability //100 because we want milli insted of micro seconds
